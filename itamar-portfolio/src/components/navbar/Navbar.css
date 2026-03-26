@@ -1,72 +1,66 @@
-@import "tailwindcss/preflight";
-@import "tailwindcss/utilities";
+@layer Navbar {
+    .Lista {
+        @apply flex justify-center list-none;
+    }
 
-/* MENU */
-@layer components {
-  .MobileMenu {
-    @apply hidden  items-center justify-center list-none;
-  }
+    .ItemLista { 
+        @apply flex mx-4 items-center;
+    }
 
-  .MobileMenu.show {
-    @apply flex flex-col absolute top-17.5 left-0 w-full bg-[#2e2e2e] py-1.25;
-  }
+    .LinkItem { 
+        @apply relative text-white no-underline text-[1.30rem] font-[400];
+    
+        &:before { 
+            @apply absolute bottom-[-20px] left-0 w-full h-[5px] bg-[#497EBC] rounded-tl-lg rounded-tr-lg opacity-0 transition-all duration-300;
+            }
+        &:hover:before { @apply opacity-1 b-[-7px];
+}
+    }
 
-  .menu-item {
-    @apply flex items-center mx-3.75;
-  }
 
-  .menu-link {
-    @apply relative text-[#ffffff] no-underline text-[1.30rem] ;
-  }
-
-  .menu-link::before {
-    content: "";
-    @apply absolute left-0 w-full h-1.25 bg-[#497EBC] opacity-0 transition-all duration-300;
-    bottom: -20px;
-    border-radius: 8px 8px 0 0;
-  }
-
-  .menu-link:hover::before {
-    @apply opacity-100;
-    bottom: -7px;
-  }
 }
 
-/* HAMBURGER */
+
+.MobileMenuIcon {
+    display: none;
+}
+
+/* hamburger */
+
 .Hamburger {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .Hamburger input {
-  display: none;
+    display: none;
 }
 
 .Hamburger svg {
-  height: 2.5em;
-  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+    height: 3em;
+    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .Line {
-  fill: none;
-  stroke: white;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 3;
-  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
-    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: none;
+    stroke: white;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3;
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+        stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .LineTopBottom {
-  stroke-dasharray: 12 63;
+    stroke-dasharray: 12 63;
 }
 
-.Hamburger input:checked + svg {
-  transform: rotate(-45deg);
+.Hamburger input:checked+svg {
+    transform: rotate(-45deg);
 }
 
-.Hamburger input:checked + svg .LineTopBottom {
-  stroke-dasharray: 20 300;
-  stroke-dashoffset: -32.42;
+.Hamburger input:checked+svg .LineTopBottom {
+    stroke-dasharray: 20 300;
+    stroke-dashoffset: -32.42;
 }
 
 @media screen and (max-width: 950px) {

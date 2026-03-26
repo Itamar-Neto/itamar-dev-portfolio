@@ -1,24 +1,2 @@
 @import "tailwindcss/preflight";
 @import "tailwindcss/utilities";
-
-@layer base {
-  body {
-    @apply bg-[#e7e5e5] text-[#2e2e2e];
-  }
-
-  html {
-    scroll-behavior: smooth;
-  }
-
-  ::-webkit-scrollbar {
-    @apply bg-[#343434];
-  }
-
-  ::-webkit-scrollbar-thumb {
-    @apply bg-[#858586] rounded-lg;
-  }
-
-  hr {
-    @apply border-[#545454] w-3/5;
-  }
-}
