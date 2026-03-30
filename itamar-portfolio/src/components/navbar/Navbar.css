@@ -1,40 +1,28 @@
 @layer Navbar {
     .Lista {
-        @apply flex justify-center list-none;
+        @apply flex justify-between list-none text-[#ffffff] gap-[1.5rem];
     }
 
-    .ItemLista { 
-        @apply flex mx-4 items-center;
+    .ItemLista {
+        @apply flex items-center;
     }
 
-    .LinkItem { 
-        @apply relative text-white no-underline text-[1.30rem] font-[400];
-    
-        &:before { 
-            @apply absolute bottom-[-20px] left-0 w-full h-[5px] bg-[#497EBC] rounded-tl-lg rounded-tr-lg opacity-0 transition-all duration-300;
-            }
-        &:hover:before { @apply opacity-1 b-[-7px];
-}
+    .LinkItem {
+        @apply relative no-underline text-[1.30rem] font-[400];
+
+        &:before {
+            @apply content-[""] absolute bottom-[-20px] w-full h-[5px] bg-[#497EBC] opacity-0 transition-all rounded-t-[8px] duration-300;
+        }
+
     }
 
+    .LinkItem:hover::before {
+        @apply opacity-100 bottom-[-3px];
+    }
 
 }
 
-
-.MobileMenuIcon {
-    display: none;
-}
-
-/* hamburger */
-
-.Hamburger {
-    cursor: pointer;
-}
-
-.Hamburger input {
-    display: none;
-}
-
+/* Animação do hamburger SVG */
 .Hamburger svg {
     height: 3em;
     transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -46,7 +34,8 @@
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 3;
-    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+    transition:
+        stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
         stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -65,37 +54,26 @@
 
 @media screen and (max-width: 950px) {
     .nav {
-        padding: 1.5rem 4rem;
+        @apply px-16 py-6;
     }
 
     .show {
-        display: none;
-        
+        @apply hidden;
     }
 
     .MobileMenuIcon {
-        display: flex;
-        position: fixed;
-        top: 1rem;
-        right: 1.3rem;
+        @apply flex fixed top-4 right-[1.3rem];
     }
 
     .MobileMenu {
-        width: 250px;
-        height: 400px;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: column;
-        border-radius: 0 0 15px 15px;
-        background-color: #2e2e2e9d;
-        box-shadow: 3px 11px 11px#464646;
-        padding: 20px;
-        position: fixed;
-        top: 75px;
-        right: 0;
+        @apply w-[250px] h-[400px] justify-around items-center flex-col rounded-b-[15px] bg-[#3f4042] shadow-[10px_10px_15px_#464646] p-5 fixed top-[85px] right-5;
+
+        &::before {
+            @apply content-[''] absolute -top-[10px] right-[15px] w-0 h-0 border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent border-b-[10px] border-b-[#3f4042] border-solid;
+        }
     }
-    
+
     .mobile-menu .nav-item {
-        padding-top: 1.1rem;
+        @apply pt-[1.1rem];
     }
 }
