@@ -6,9 +6,12 @@ export default function About() {
             id="about"
             className="
                 flex flex-row flex-nowrap justify-around items-center
-                w-full gap-[10px] px-[100px] py-[100px]
+                w-full gap-[10px] px-[100px] py-[100px] mb-15
+                // Estilos para telas menores que 1220px
                 max-[1220px]:px-[40px] max-[1220px]:gap-[10px] max-[1220px]:flex-col max-[1220px]:align-items-center max-[1220px]:pt-[70px] max-[1220px]:text-center
+                // Estilos para telas menores que 950px
                 max-[950px]:flex-col max-[950px]:text-center max-[950px]:pt-[100px] max-[950px]:gap-[40px]
+                // Estilos para telas menores que 670px
                 max-[670px]:justify-center max-[670px]:items-center max-[670px]:px-[80px]
             "
         >

@@ -13,49 +13,48 @@ html::-webkit-scrollbar-thumb {
     border-radius: 10px;
 }
 
-@layer base {
-    * {
-        @apply m-0 p-0 box-border;
-    }
 
-    :root {
-        @apply font-sans leading-normal font-normal text-[#2e2e2e] bg-[#e7e5e5];
-    }
+* {
+    @apply m-0 p-0 box-border;
+}
 
-    html {
-        @apply w-full overflow-x-hidden scroll-smooth;
-    }
+:root {
+    @apply font-sans leading-normal font-normal text-[#2e2e2e] bg-[#e7e5e5];
+}
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5 {
-        @apply text-[30px] font-normal leading-[1.1] cursor-context-menu;
-        /* Mobile ≤789px */
-        @apply md:text-[30px];
-        /* Mobile ≤600px */
-        @apply sm:text-[23px] sm:font-light;
-    }
+html {
+    @apply w-full overflow-x-hidden scroll-smooth;
+}
 
-    h3 {
-        @apply font-thin mb-[10px];
-    }
+h1,
+h2,
+h3,
+h4,
+h5 {
+    @apply text-[30px] font-normal leading-[1.1] cursor-context-menu;
+    /* Mobile ≤789px */
+    @apply md:text-[30px];
+    /* Mobile ≤600px */
+    @apply sm:text-[23px] sm:font-light;
+}
 
-    h5 {
-        /* Override para ≤789px */
-        @apply md:text-[35px] sm:text-[23px];
-    }
+h3 {
+    @apply font-thin mb-[10px];
+}
 
-    p {
-        @apply text-lg text-gray-700 leading-relaxed;
-    }
+h5 {
+    /* Override para ≤789px */
+    @apply md:text-[35px] sm:text-[23px];
+}
 
-    em {
-        @apply font-medium;
-    }
+p {
+    @apply text-lg text-gray-700 leading-relaxed;
+}
 
-    hr {
-        @apply border border-[#545454] w-[60%];
-    }
+em {
+    @apply font-medium;
+}
+
+hr {
+    @apply border border-[#545454] w-[60%];
 }

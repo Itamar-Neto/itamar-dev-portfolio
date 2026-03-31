@@ -19,7 +19,7 @@ export default function Navbar() {
                     <li className='ItemLista'><a className='LinkItem' href="#home">Home</a></li>
                     <li className='ItemLista'><a className='LinkItem' href="#about">Sobre</a></li>
                     <li className='ItemLista'><a className='LinkItem' href="#technology">Tecnologias</a></li>
-                    <li className='ItemLista'><a className='LinkItem' href="#projetos">Projetos</a></li>
+                    <li className='ItemLista'><a className='LinkItem' href="#projects">Projetos</a></li>
                     <li className='ItemLista'><a className='LinkItem' href="#contato">Contato</a></li>
                 </ul>
 

@@ -1,0 +1,44 @@
+#CardSoonMore {
+    height: 390px;
+    width: 320px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #e7e5e5;
+    padding: 15px;
+    gap: 5px;
+}
+
+#ImageBase {
+    height: 280px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    background-color: #adadad;
+    position: relative;
+}
+
+#ImageBase img {
+    height: 100%;
+    width: 100%;
+}
+
+#ImageAnimated {
+    animation: ImageAnimated 2.5s infinite;
+}
+
+@keyframes ImageAnimated {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
