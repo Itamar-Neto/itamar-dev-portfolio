@@ -48,8 +48,7 @@ html::-webkit-scrollbar-thumb {
     }
 
     p {
-        @apply text-[23px] text-[#52525b] cursor-context-menu;
-        @apply md:text-xl sm:text-lg;
+        @apply text-lg text-gray-700 leading-relaxed;
     }
 
     em {

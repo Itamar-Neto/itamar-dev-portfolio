@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/navbar/Navbar'
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
+import Technology from './pages/Technology.jsx'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Technology />
     </div>
   )
 }

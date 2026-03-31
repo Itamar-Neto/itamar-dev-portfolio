@@ -6,7 +6,7 @@ export default function About() {
             id="about"
             className="
                 flex flex-row flex-nowrap justify-around items-center
-                w-full gap-[10px] px-[100px] py-[130px]
+                w-full gap-[10px] px-[100px] py-[100px]
                 max-[1220px]:px-[40px] max-[1220px]:gap-[10px] max-[1220px]:flex-col max-[1220px]:align-items-center max-[1220px]:pt-[70px] max-[1220px]:text-center
                 max-[950px]:flex-col max-[950px]:text-center max-[950px]:pt-[100px] max-[950px]:gap-[40px]
                 max-[670px]:justify-center max-[670px]:items-center max-[670px]:px-[80px]
@@ -17,8 +17,8 @@ export default function About() {
             <div className="flex flex-col">
 
                 {/* Sobre mim */}
-                <div className="flex flex-col w-[640px] my-[25px] lg:w-[500px] md:w-[80vw] md:mx-[10px] sm:w-[80vw]">
-                    <h3 className="text-3xl font-semibold mb-4">Sobre mim</h3>
+                <div className="flex flex-col w-[640px] my-[25px] lg:w-[500px] md:w-[80vw] md:mx-[10px] sm:w-[80vw] pt-[15px]">
+                    <h2 className="text-3xl font-semibold mb-4">Sobre mim</h2>
 
                     <p className="text-lg text-gray-700 leading-relaxed text-left">
                         A paixão por tecnologia sempre me acompanhou, e a arte foi o que me ensinou a dar vida a ideias.

@@ -18,7 +18,7 @@ export default function Navbar() {
                 <ul className={`Lista MobileMenu ${menuVisible ? '' : 'show'}`}>
                     <li className='ItemLista'><a className='LinkItem' href="#home">Home</a></li>
                     <li className='ItemLista'><a className='LinkItem' href="#about">Sobre</a></li>
-                    <li className='ItemLista'><a className='LinkItem' href="#tecnologias">Tecnologias</a></li>
+                    <li className='ItemLista'><a className='LinkItem' href="#technology">Tecnologias</a></li>
                     <li className='ItemLista'><a className='LinkItem' href="#projetos">Projetos</a></li>
                     <li className='ItemLista'><a className='LinkItem' href="#contato">Contato</a></li>
                 </ul>
