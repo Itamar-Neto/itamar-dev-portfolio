@@ -43,14 +43,14 @@ export default function Home() {
                 id="home"
                 className="
                 mt-[0rem] flex justify-center items-center
-                h-auto w-full overflow-hidden py-[2rem]
+                h-auto w-full overflow-hidden py-[2rem] pb-[5rem] pt-[4rem]
                 lg:flex-row lg:flex-nowrap lg:justify-between lg:pt-[5px] lg:pb-[6.25rem]
             "
             >
                 <div
                     id="HomeInformation"
                     className="
-                    flex flex-col text-left mt-[24px]
+                    flex flex-col text-left mt-[24px] pt-[2rem]
                     lg:text-left lg:h-[18.75rem] lg:w-4/5 lg:mt-[11rem] lg:ml-[7rem]
                 "
                 >

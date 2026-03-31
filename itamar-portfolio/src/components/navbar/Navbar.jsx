@@ -10,14 +10,14 @@ export default function Navbar() {
 
     return (
         <React.StrictMode>
-            <nav className='w-full flex justify-between bg-[#2e2e2e] shadow-[0px_3px_10px_#464646] p-[0.rem_4rem] position-fixed top-0 left-0 z-2 pr-[20px] '>
+            <nav className='fixed w-full flex justify-between bg-[#2e2e2e] shadow-[0px_3px_10px_#464646] p-[0.rem_4rem] position-fixed top-0 left-0 z-2 pr-[20px] '>
 
                 <a href="#"><img src={LogoPortifolio} alt='Logo do portifólio' className='w-[50px] h-[50px] m-[10px] ml-[15px]' /></a>
 
                 {/* Menu de navegação — desktop */}
                 <ul className={`Lista MobileMenu ${menuVisible ? '' : 'show'}`}>
                     <li className='ItemLista'><a className='LinkItem' href="#home">Home</a></li>
-                    <li className='ItemLista'><a className='LinkItem' href="#sobre">Sobre</a></li>
+                    <li className='ItemLista'><a className='LinkItem' href="#about">Sobre</a></li>
                     <li className='ItemLista'><a className='LinkItem' href="#tecnologias">Tecnologias</a></li>
                     <li className='ItemLista'><a className='LinkItem' href="#projetos">Projetos</a></li>
                     <li className='ItemLista'><a className='LinkItem' href="#contato">Contato</a></li>
