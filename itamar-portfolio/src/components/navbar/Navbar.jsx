@@ -10,9 +10,11 @@ export default function Navbar() {
 
     return (
         <React.StrictMode>
-            <nav className='w-full flex justify-between bg-[#2e2e2e] rounded-lg shadow-[0px_3px_10px_#464646] p-[0.rem_4rem] position-fixed top-0 left-0 z-2 pr-[20px]'>
+            <nav className='w-full flex justify-between bg-[#2e2e2e] shadow-[0px_3px_10px_#464646] p-[0.rem_4rem] position-fixed top-0 left-0 z-2 pr-[20px] '>
 
                 <a href="#"><img src={LogoPortifolio} alt='Logo do portifólio' className='w-[50px] h-[50px] m-[10px] ml-[15px]' /></a>
+
+                {/* Menu de navegação — desktop */}
                 <ul className={`Lista MobileMenu ${menuVisible ? '' : 'show'}`}>
                     <li className='ItemLista'><a className='LinkItem' href="#home">Home</a></li>
                     <li className='ItemLista'><a className='LinkItem' href="#sobre">Sobre</a></li>
@@ -20,8 +22,9 @@ export default function Navbar() {
                     <li className='ItemLista'><a className='LinkItem' href="#projetos">Projetos</a></li>
                     <li className='ItemLista'><a className='LinkItem' href="#contato">Contato</a></li>
                 </ul>
-                {/* Ícone hamburger — só mobile */}
-                <div className="hidden max-[950px]:flex fixed top-3 right-5">
+
+                {/* Ícone hamburger — mobile/tablet */}
+                <div className="hidden max-[950px]:flex fixed top-[3px] right-[5px]">
                     <label className="Hamburger cursor-pointer">
                         <input type="checkbox" className="hidden" checked={menuVisible} onChange={toggleMenu} />
                         <svg viewBox="0 0 32 32">

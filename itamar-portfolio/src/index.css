@@ -1,106 +1,62 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+@import url('https://fonts.cdnfonts.com/css/oak-sans');
 @import "tailwindcss";
 
-@import url('https://fonts.cdnfonts.com/css/oak-sans');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  font-family: 'Oak Sans', sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  
-  color: #2e2e2e;
-  background-color: #e7e5e5;
-}
-
-html {
-  width: 100%;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-}
-
+/* Scrollbar (sem utilitário Tailwind equivalente) */
 html::-webkit-scrollbar {
-  background-color: #343434;
+    background-color: #343434;
 }
 
 html::-webkit-scrollbar-thumb {
-  background-color: #858586;
-  border-radius: 10px;
-
+    background-color: #a4a4a4;
+    border-radius: 10px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-size: 39px;
-    font-weight: 400px;
-    line-height: 1.1;
-    cursor: context-menu;
-}
-
-h3 {
-    font-weight: 100;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 24px;
-    color: #52525b;
-    cursor: context-menu;
-}
-
-em {
-    font-weight: 500;
-}
-
-hr {
-    border: 1px solid #545454;
-    width: 60%;
-}
-
-
-/* Responsive */
-
-@media only screen and (max-width: 789px) {
-
-    h1,
-    h2,
-    h3,
-    h4 {
-        font-size: 30px;
+@layer base {
+    * {
+        @apply m-0 p-0 box-border;
     }
 
-    h5 {
-        font-size: 35px;
+    :root {
+        @apply font-sans leading-normal font-normal text-[#2e2e2e] bg-[#e7e5e5];
     }
 
-    p {
-        font-size: 20px;
+    html {
+        @apply w-full overflow-x-hidden scroll-smooth;
     }
-}
-
-@media only screen and (max-width: 600px) {
 
     h1,
     h2,
     h3,
     h4,
     h5 {
-        font-size: 23px;
-        font-weight: 300px;
+        @apply text-[30px] font-normal leading-[1.1] cursor-context-menu;
+        /* Mobile ≤789px */
+        @apply md:text-[30px];
+        /* Mobile ≤600px */
+        @apply sm:text-[23px] sm:font-light;
+    }
+
+    h3 {
+        @apply font-thin mb-[10px];
+    }
+
+    h5 {
+        /* Override para ≤789px */
+        @apply md:text-[35px] sm:text-[23px];
     }
 
     p {
-        font-size: 18px;
+        @apply text-[23px] text-[#52525b] cursor-context-menu;
+        @apply md:text-xl sm:text-lg;
+    }
+
+    em {
+        @apply font-medium;
+    }
+
+    hr {
+        @apply border border-[#545454] w-[60%];
     }
 }

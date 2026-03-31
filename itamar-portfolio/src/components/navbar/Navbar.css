@@ -4,7 +4,7 @@
     }
 
     .ItemLista {
-        @apply flex items-center;
+        @apply flex items-center hover:text-[#497EBC] transition-colors duration-300;
     }
 
     .LinkItem {
@@ -54,7 +54,7 @@
 
 @media screen and (max-width: 950px) {
     .nav {
-        @apply px-16 py-6;
+        @apply px-[16px] py-[6px];
     }
 
     .show {
@@ -62,14 +62,14 @@
     }
 
     .MobileMenuIcon {
-        @apply flex fixed top-4 right-[1.3rem];
+        @apply flex fixed top-[4px] right-[1.3rem];
     }
 
     .MobileMenu {
-        @apply w-[250px] h-[400px] justify-around items-center flex-col rounded-b-[15px] bg-[#3f4042] shadow-[10px_10px_15px_#464646] p-5 fixed top-[85px] right-5;
+        @apply w-[250px] h-[400px] justify-around items-center flex-col rounded-b-[15px] bg-[#3f4042] shadow-[10px_10px_15px_#464646] p-[5px] fixed top-[85px] right-[5px];
 
         &::before {
-            @apply content-[''] absolute -top-[10px] right-[15px] w-0 h-0 border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent border-b-[10px] border-b-[#3f4042] border-solid;
+            @apply content-[''] absolute -top-[10px] right-[15px] w-[0px] h-[0px] border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent border-b-[10px] border-b-[#3f4042] border-solid;
         }
     }
 

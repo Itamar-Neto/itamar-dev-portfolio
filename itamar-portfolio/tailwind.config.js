@@ -5,7 +5,20 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Oak Sans', 'sans-serif'],
+      },
+      colors: {
+        base: '#2e2e2e',
+        muted: '#52525b',
+        border: '#545454',
+      },
+      screens: {
+        'bp-789': { max: '789px' },
+        'bp-600': { max: '600px' },
+      },
+    },
   },
   plugins: [],
 }
