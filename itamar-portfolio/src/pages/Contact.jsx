@@ -7,7 +7,7 @@ const socialLinks = [
         alt: "Logo Linkedin",
     },
     {
-        href: "https://github.com/Itamar-Henriques",
+        href: "https://github.com/Itamar-Neto",
         src: "../../src/assets/Imagens/GitHub.svg",
         alt: "Logo GitHub",
     },
