@@ -20,7 +20,7 @@ export default function Navbar() {
                     <li className='ItemLista'><a className='LinkItem' href="#about">Sobre</a></li>
                     <li className='ItemLista'><a className='LinkItem' href="#technology">Tecnologias</a></li>
                     <li className='ItemLista'><a className='LinkItem' href="#projects">Projetos</a></li>
-                    <li className='ItemLista'><a className='LinkItem' href="#contato">Contato</a></li>
+                    <li className='ItemLista'><a className='LinkItem' href="#contact">Contato</a></li>
                 </ul>
 
                 {/* Ícone hamburger — mobile/tablet */}

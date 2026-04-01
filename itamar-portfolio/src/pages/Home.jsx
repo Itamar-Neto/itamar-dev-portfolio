@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import ThreeShapes from "../components/ThreeShapes/ThreeShapes.jsx"
+import ThreeShapes from "../components/ThreeShapes.jsx"
 import ScrollDown from "../components/ScrollDown/ScrollDown.jsx"
 
 const textos = ["Desenvolvedor em Formação"];
@@ -73,13 +73,13 @@ export default function Home() {
 
                     <div className="flex gap-4 mt-6">
                         <a
-                            href="#projetos"
+                            href="#projects"
                             className="px-6 py-2 bg-[#343434] text-white text-sm font-medium rounded hover:bg-[#4f4f4f] transition-colors duration-300"
                         >
                             Ver Projetos
                         </a>
                         <a
-                            href="#contato"
+                            href="#contact"
                             className="px-6 py-2 border border-gray-900 text-gray-900 text-sm font-medium rounded hover:bg-[#343434] hover:text-white transition-colors duration-300"
                         >
                             Contato

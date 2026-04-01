@@ -1,4 +1,4 @@
-import FormImage from "../components/FormImage/FormImage.jsx"
+import FormImage from "../components/FormImage.jsx";
 
 export default function About() {
     return (
