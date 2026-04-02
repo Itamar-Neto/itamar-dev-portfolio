@@ -14,10 +14,7 @@ export default {
         muted: '#52525b',
         border: '#545454',
       },
-      screens: {
-        'bp-789': { max: '789px' },
-        'bp-600': { max: '600px' },
-      },
+      
     },
   },
   plugins: [],

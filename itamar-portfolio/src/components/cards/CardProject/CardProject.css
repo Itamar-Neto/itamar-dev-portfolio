@@ -1,7 +1,7 @@
-#Card { 
+#Card {
     height: 390px;
     width: 320px;
-    display:flex;
+    display: flex;
     justify-content: space-around;
     text-align: center;
     flex-direction: column;
@@ -14,7 +14,7 @@
 #ImageBase {
     height: 280px;
     width: 290px;
-    display:flex;
+    display: flex;
     justify-content: center;
     background-color: #adadad;
     position: relative;
