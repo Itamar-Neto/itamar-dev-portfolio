@@ -1,9 +1,15 @@
 /* reset, scroll, fontes, variáveis de cor */
 :root {
-    --color-primary: #6366f1;
+    /* Tipografia */
+    --font-primary: 'Oak Sans', sans-serif;
+
+    /* Cores gerais */
     --color-bg: #e7e5e5;
-    --color-text: #2e2e2e;
-    font-family: 'Oak Sans', sans-serif;
+    --color-text: #303033;
+
+    /* Cores da barra de rolagem */
+    --color-scrollbar-bg: #343434;
+    --color-scrollbar-thumb: #a4a4a4;
 }
 
 * {
@@ -19,12 +25,18 @@ html {
 }
 
 html::-webkit-scrollbar {
-    background-color: #343434;
+    background-color: var(--color-scrollbar-bg);
 }
 
 html::-webkit-scrollbar-thumb {
-    background-color: #a4a4a4;
+    background-color: var(--color-scrollbar-thumb);
     border-radius: 10px;
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color: var(--color-bg);
+    color: var(--color-text);
 }
 
 hr {

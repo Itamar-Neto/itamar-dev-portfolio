@@ -48,13 +48,13 @@ export default function Home() {
             "
             >
                 <div
-                    id="HomeInformation"
+
                     className="
                     flex flex-col text-left mt-[24px] pt-[2rem]
                     lg:text-left lg:h-[18.75rem] lg:w-4/5 lg:mt-[11rem] lg:ml-[7rem]
                 "
                 >
-                    <p className="text-lg lg:text-xl text-gray-600">
+                    <p className="text-lg lg:text-xl">
                         Olá, eu sou
                     </p>
 
