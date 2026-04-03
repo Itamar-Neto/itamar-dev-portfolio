@@ -1,15 +1,25 @@
-/* reset, scroll, fontes, variáveis de cor */
 :root {
     /* Tipografia */
     --font-primary: 'Oak Sans', sans-serif;
 
-    /* Cores gerais */
-    --color-bg: #e7e5e5;
+    /* Cores de texto*/
     --color-text: #303033;
 
-    /* Cores da barra de rolagem */
+    /* Cores de fundo */
+    --color-bg-default: #e7e5e5;
+    --color-bg-navbar: #2e2e2e;
+
+    /* UI - Scrollbar */
     --color-scrollbar-bg: #343434;
     --color-scrollbar-thumb: #a4a4a4;
+
+    /* UI - BallonText */
+    --color-balloon-bg: #3D3D3D;
+    --color-balloon-hover-bg: #5a5a5a;
+    --color-balloon-text: #b2b1b1;
+
+    /* Cores gerais */
+    --color-border: #545454;
 }
 
 * {
@@ -35,12 +45,12 @@ html::-webkit-scrollbar-thumb {
 
 body {
     font-family: var(--font-primary);
-    background-color: var(--color-bg);
+    background-color: var(--color-bg-default);
     color: var(--color-text);
 }
 
 hr {
     width: 60%;
     border: none;
-    border-top: 1px solid #545454;
+    border-top: 1px solid var(--color-border);
 }
