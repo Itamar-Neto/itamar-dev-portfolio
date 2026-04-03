@@ -1,5 +1,5 @@
-import CardProject from "../components/cards/CardProject/CardProject.jsx";
-import CardSoonMore from "../components/cards/CardSoonMore/CardSoonMore.jsx";
+import CardProject from "../components/CardProject.jsx";
+import CardSoonMore from "../components/CardSoonMore.jsx";
 import LogoCard from "../assets/Imagens/LogoCard.jpg";
 import ProjectModal from "../components/Projectmodal/ProjectModal.jsx";
 

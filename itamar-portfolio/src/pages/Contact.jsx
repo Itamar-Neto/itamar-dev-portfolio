@@ -1,4 +1,4 @@
-import ScrollToTop from "../components/scrollToTop.jsx";
+import ScrollToTop from "../components/ScrollToTop.jsx";
 
 const socialLinks = [
     {
