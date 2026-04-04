@@ -29,7 +29,7 @@ export default function Contato() {
         <>
             <section
                 id="contact"
-                className="flex flex-col items-center justify-center w-full text-center py-[110px] gap-5"
+                className="flex flex-col items-center justify-center w-full text-center py-[125px] pb-5 gap-5"
             >
                 <h2 className="text-4xl font-semi">Contato</h2>
 
@@ -40,7 +40,7 @@ export default function Contato() {
                         href="mailto:itamar.henriques.r@gmail.com?subject=Contato pelo portifólio"
                         className="w-4/5 no-underline"
                     >
-                        <h2 className="text-4xl font-bold cursor-pointer no-underline hover:underline hover:text-[#53565e]">itamar.henriques.r@gmail.com</h2>
+                        <h2 className="text-4xl font-bold cursor-pointer no-underline  hover:underline hover:text-(--color-text-email-hover)">itamar.henriques.r@gmail.com</h2>
                     </a>
                 </div>
 
@@ -58,7 +58,7 @@ export default function Contato() {
                             className="
                 flex items-center justify-center
                 w-[85px] h-[85px]
-                rounded-full bg-[#c0c0c0]
+                rounded-full shadow-md hover:shadow-xl transition bg-(--color-bg-icons)
                 sm:w-[70px] sm:h-[70px]
               "
                         >

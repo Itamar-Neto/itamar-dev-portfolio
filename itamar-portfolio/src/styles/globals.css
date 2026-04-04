@@ -33,15 +33,24 @@
 
     /* Cores dos Cards */
     --color-bg-cards: #e7e5e5;
+    --color-text-cards: #f1f1f9;
     --color-border-cards: #ababab4d;
     --color-bg-btn-cards: #ababab1a;
     --color-border-cards-hover: #aaaaaa1a;
     --color-bg-cards-hover: #aaaaaa4d;
     --color-card-btn-hover: #adadad;
-    --color-text-cards: #f1f1f9;
+
+    /* Cores ProjectModal */
+    --color-bg-projectmodal: #0f0f0ff2;
+    --color-border-projectmodal: #46464633;
+    --color-bg-swiper: #5f81a0;
+    --color-bg-btn-swiper: #3a3a3a85;
+    --color-bg-btn-swiper-hover: #000000cc;
 
     /* Cores gerais */
     --color-bg-containers: #333333;
+    --color-text-email-hover: #53565e;
+    --color-bg-icons: #c0c0c0;
 }
 
 * {

@@ -75,7 +75,7 @@ export default function Projects() {
     return (
         <section
             id="projects"
-            className="w-full flex justify-around items-center flex-col px-25 py-35 pt-30 overflow-x-hidden gap-5 max-[950px]:text-center"
+            className="w-full flex justify-around items-center flex-col px-25 py-25 pt-32 overflow-x-hidden gap-5 max-[950px]:text-center"
         >
             <h2 className="text-4xl font-semi mb-4">Projetos</h2>
 

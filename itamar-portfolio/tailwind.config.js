@@ -23,6 +23,15 @@ export default {
         muted: '#52525b',
         border: '#545454',
       },
+      animation: {
+        'fade-in': 'fade-in 0.3s ease',
+      },
+      keyframes: {
+        'fade-in': {
+          from: { opacity: '0' },
+          to:   { opacity: '1' },
+        },
+      },
     },
   },
   plugins: [],
