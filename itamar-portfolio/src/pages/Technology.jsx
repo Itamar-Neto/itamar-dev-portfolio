@@ -2,12 +2,12 @@ import BallonText from "../components/BallonText"
 
 export default function Technology() {
     return (
-        <section id="technology" className="flex justify-center items-center flex-col gap-15 px-25 py-35 max-[950px]:p-0">
+        <section id="technology" className="flex justify-center items-center flex-col gap-10 px-25 py-40 max-[950px]:p-0">
             <div id="TechnologyInformation" className="text-center  w-[60%] max-[950px]:text-center">
-                <h2 className="text-3xl font-semibold mb-4">Tecnologias e Competências</h2>
-                <p className="text-lg text-gray-700 leading-relaxed text-center mt-4 max-[950px]:text-justify">Acredito que compartilhar ideias e soluções acelera o aprendizado e fortalece o desenvolvimento em equipe. Estou em constante evolução como desenvolvedor, buscando aprimorar minhas habilidades técnicas diariamente e aplicar boas práticas no uso das tecnologias que domino.</p>
+                <h2 className="text-4xl font-semi mb-4">Tecnologias e Competências</h2>
+                <p className="text-center mt-4 max-[950px]:text-justify">Acredito que compartilhar ideias e soluções acelera o aprendizado e fortalece o desenvolvimento em equipe. Estou em constante evolução como desenvolvedor, buscando aprimorar minhas habilidades técnicas diariamente e aplicar boas práticas no uso das tecnologias que domino.</p>
             </div>
-            <div id="Skills" className="flex justify-center items-center  w-[70%] gap-5 flex-row flex-wrap bg-[#333333] rounded-[45px] p-20 shadow-[0_0_20px_rgba(0,0,0,0.6)] max-[950px]:p-30">
+            <div id="Skills" className="flex justify-center items-center w-[70%] gap-5 flex-row flex-wrap bg-(--color-bg-containers) rounded-[45px] p-20 shadow-[0_0_20px_rgba(0,0,0,0.6)] max-[950px]:p-30">
                 <BallonText text="HTML5" />
                 <BallonText text="CSS3" />
                 <BallonText text="JavaScript" />

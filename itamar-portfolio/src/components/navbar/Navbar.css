@@ -1,27 +1,3 @@
-@layer Navbar {
-    .Lista {
-        @apply flex justify-between list-none text-[#ffffff] gap-[1.5rem];
-    }
-
-    .ItemLista {
-        @apply flex items-center hover:text-[#497EBC] transition-colors duration-300;
-    }
-
-    .LinkItem {
-        @apply relative no-underline text-[1.30rem] font-[400];
-
-        &:before {
-            @apply content-[""] absolute bottom-[-20px] w-full h-[5px] bg-[#497EBC] opacity-0 transition-all rounded-t-[8px] duration-300;
-        }
-
-    }
-
-    .LinkItem:hover::before {
-        @apply opacity-100 bottom-[-3px];
-    }
-
-}
-
 /* Animação do hamburger SVG */
 .Hamburger svg {
     height: 3em;
@@ -30,7 +6,7 @@
 
 .Line {
     fill: none;
-    stroke: white;
+    stroke: var(--color-hamburger);
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 3;
@@ -52,28 +28,17 @@
     stroke-dashoffset: -32.42;
 }
 
-@media screen and (max-width: 950px) {
-    .nav {
-        @apply px-[16px] py-[6px];
-    }
 
-    .show {
-        @apply hidden;
-    }
+.MobileMenu::before {
 
-    .MobileMenuIcon {
-        @apply flex fixed top-[4px] right-[1.3rem];
-    }
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid var(--color-bg-navbar);
 
-    .MobileMenu {
-        @apply w-[250px] h-[400px] justify-around items-center flex-col rounded-b-[15px] bg-[#3f4042] shadow-[10px_10px_15px_#464646] p-[5px] fixed top-[85px] right-[5px];
-
-        &::before {
-            @apply content-[''] absolute -top-[10px] right-[15px] w-[0px] h-[0px] border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent border-b-[10px] border-b-[#3f4042] border-solid;
-        }
-    }
-
-    .mobile-menu .nav-item {
-        @apply pt-[1.1rem];
-    }
 }

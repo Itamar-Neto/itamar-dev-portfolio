@@ -1,15 +1,56 @@
-/* reset, scroll, fontes, variáveis de cor */
 :root {
     /* Tipografia */
     --font-primary: 'Oak Sans', sans-serif;
 
-    /* Cores gerais */
-    --color-bg: #e7e5e5;
-    --color-text: #303033;
+    /* Cores de texto*/
+    --color-text: #2e2e2e;
+    --color-p: #364153;
+    --color-cursor: #4A90D9;
 
-    /* Cores da barra de rolagem */
+    /* Background Page */
+    --color-bg-default: #e7e5e5;
+
+    /* Cores NavBar */
+    --color-bg-navbar: #2e2e2e;
+    --color-text-navbar-hover: #497EBC;
+    --color-bg-before: #497EBC;
+    --color-hamburger: #ffffff;
+
+    /* UI - Scrollbar */
     --color-scrollbar-bg: #343434;
     --color-scrollbar-thumb: #a4a4a4;
+
+    /* UI - BallonText */
+    --color-balloon-bg: #3D3D3D;
+    --color-balloon-bg-hover: #5a5a5a;
+    --color-balloon-text: #b2b1b1;
+
+    /* Cores Botões */
+    --color-btn: #343434;
+    --color-btn-hover: #4f4f4f;
+    --color-border: #111827;
+    --color-btn-text: #b2b1b1;
+
+    /* Cores dos Cards */
+    --color-bg-cards: #e7e5e5;
+    --color-text-cards: #f1f1f9;
+    --color-border-cards: #ababab4d;
+    --color-bg-btn-cards: #ababab1a;
+    --color-border-cards-hover: #aaaaaa1a;
+    --color-bg-cards-hover: #aaaaaa4d;
+    --color-card-btn-hover: #adadad;
+
+    /* Cores ProjectModal */
+    --color-bg-projectmodal: #0f0f0ff2;
+    --color-border-projectmodal: #46464633;
+    --color-bg-swiper: #5f81a0;
+    --color-bg-btn-swiper: #3a3a3a85;
+    --color-bg-btn-swiper-hover: #000000cc;
+
+    /* Cores gerais */
+    --color-bg-containers: #333333;
+    --color-text-email-hover: #53565e;
+    --color-bg-icons: #c0c0c0;
 }
 
 * {
@@ -35,12 +76,20 @@ html::-webkit-scrollbar-thumb {
 
 body {
     font-family: var(--font-primary);
-    background-color: var(--color-bg);
+    background-color: var(--color-bg-default);
     color: var(--color-text);
 }
 
 hr {
     width: 60%;
     border: none;
-    border-top: 1px solid #545454;
+    border-top: 1px solid var(--color-border);
+}
+
+
+p {
+    color: var(--color-p);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    line-height: 1.625;
 }
