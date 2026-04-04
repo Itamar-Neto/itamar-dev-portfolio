@@ -41,8 +41,7 @@ export default function Home() {
         <>
             <section
                 id="home"
-                className="
-                mt-[0rem] flex justify-center items-center
+                className=" flex justify-center items-center mt-[0rem] mb-5
                 h-auto w-full overflow-hidden py-[2rem] pb-[5rem] pt-[4rem]
                 lg:flex-row lg:flex-nowrap lg:justify-between lg:pt-[5px] lg:pb-[6.25rem]
             "

@@ -1,9 +1,9 @@
 export default function CardProject({ src, alt, nomeProjeto, onClick }) {
     return (
-        <div className="h-[390px] w-[320px] flex flex-col justify-around items-center text-center rounded-[10px] bg-[#e7e5e5] p-[15px] gap-[5px]">
+        <div className="h-[390px] w-[320px] flex flex-col justify-around items-center text-center rounded-[10px] bg-(--color-bg-cards) p-[15px] gap-[5px]">
 
             {/* Wrapper da imagem com group para o hover funcionar */}
-            <div className="group relative h-[280px] w-[290px] flex justify-center bg-[#adadad]">
+            <div className="group relative h-[280px] w-[290px] flex justify-center bg-(--color-card-hover)">
 
                 <img
                     src={src}
@@ -23,13 +23,13 @@ export default function CardProject({ src, alt, nomeProjeto, onClick }) {
                             h-[20%] w-full
                             text-white cursor-pointer
                             rounded-[10px]
-                            border border-[#ababab4d]
-                            bg-[#ababab1a]
+                            border border-(--color-border-cards)
+                            bg-(--color-bg-btn-cards)
                             p-[10px]
                             transition-all duration-500
-                            hover:border-[#aaaaaa1a]
-                            hover:bg-[#aaaaaa4d]
-                            hover:text-[#f1f1f9]
+                            hover:border-(--color-border-cards-hover)
+                            hover:bg-(--color-bg-cards-hover)
+                            hover:text-(--color-text-cards)
                         "
                     >
                         Ver mais

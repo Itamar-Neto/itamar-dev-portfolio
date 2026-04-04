@@ -29,9 +29,19 @@
     --color-btn: #343434;
     --color-btn-hover: #4f4f4f;
     --color-border: #111827;
+    --color-btn-text: #b2b1b1;
+
+    /* Cores dos Cards */
+    --color-bg-cards: #e7e5e5;
+    --color-border-cards: #ababab4d;
+    --color-bg-btn-cards: #ababab1a;
+    --color-border-cards-hover: #aaaaaa1a;
+    --color-bg-cards-hover: #aaaaaa4d;
+    --color-card-btn-hover: #adadad;
+    --color-text-cards: #f1f1f9;
 
     /* Cores gerais */
-    --color-border: #545454;
+    --color-bg-containers: #333333;
 }
 
 * {
@@ -66,6 +76,7 @@ hr {
     border: none;
     border-top: 1px solid var(--color-border);
 }
+
 
 p {
     color: var(--color-p);

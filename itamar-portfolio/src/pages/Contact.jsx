@@ -31,7 +31,7 @@ export default function Contato() {
                 id="contact"
                 className="flex flex-col items-center justify-center w-full text-center py-[110px] gap-5"
             >
-                <h2 className="text-5xl font-semi">Contato</h2>
+                <h2 className="text-4xl font-semi">Contato</h2>
 
                 <p className="text-2xl">Envie um e-mail para</p>
 
