@@ -3,11 +3,18 @@
     --font-primary: 'Oak Sans', sans-serif;
 
     /* Cores de texto*/
-    --color-text: #303033;
+    --color-text: #2e2e2e;
+    --color-p: #364153;
+    --color-cursor: #4A90D9;
 
-    /* Cores de fundo */
+    /* Background Page */
     --color-bg-default: #e7e5e5;
+
+    /* Cores NavBar */
     --color-bg-navbar: #2e2e2e;
+    --color-text-navbar-hover: #497EBC;
+    --color-bg-before: #497EBC;
+    --color-hamburger: #ffffff;
 
     /* UI - Scrollbar */
     --color-scrollbar-bg: #343434;
@@ -15,8 +22,13 @@
 
     /* UI - BallonText */
     --color-balloon-bg: #3D3D3D;
-    --color-balloon-hover-bg: #5a5a5a;
+    --color-balloon-bg-hover: #5a5a5a;
     --color-balloon-text: #b2b1b1;
+
+    /* Cores Botões */
+    --color-btn: #343434;
+    --color-btn-hover: #4f4f4f;
+    --color-border: #111827;
 
     /* Cores gerais */
     --color-border: #545454;
@@ -53,4 +65,11 @@ hr {
     width: 60%;
     border: none;
     border-top: 1px solid var(--color-border);
+}
+
+p {
+    color: var(--color-p);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    line-height: 1.625;
 }

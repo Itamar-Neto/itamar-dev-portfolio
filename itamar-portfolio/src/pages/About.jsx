@@ -23,13 +23,13 @@ export default function About() {
                 <div className="flex flex-col w-[640px] my-[25px] lg:w-[500px] md:w-[80vw] md:mx-[10px] sm:w-[80vw] pt-[15px]">
                     <h2 className="text-3xl font-semibold mb-4">Sobre mim</h2>
 
-                    <p className="text-lg text-gray-700 leading-relaxed text-left">
+                    <p className="text-left">
                         A paixão por tecnologia sempre me acompanhou, e a arte foi o que me ensinou a dar vida a ideias.
                         Acredito que criar sistemas é uma forma de arte — cada projeto é uma tela em branco onde a
                         imaginação se materializa em soluções reais e funcionais.
                     </p>
 
-                    <p className="text-lg text-gray-700 leading-relaxed text-left mt-4">
+                    <p className="text-left mt-4">
                         É a partir dessa fusão entre lógica e criatividade que transformo necessidades e sonhos em
                         produtos concretos. É a partir dessa fusão entre lógica e criatividade que transformo necessidades e sonhos em produtos concretos. Como estudante autodidata e aluno de Análise e Desenvolvimento de Sistemas na PUC Minas, dedico meu tempo para aprofundar meus estudos, construir projetos e evoluir constantemente como desenvolvedor.
                     </p>

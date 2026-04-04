@@ -54,33 +54,33 @@ export default function Home() {
                     lg:text-left lg:h-[18.75rem] lg:w-4/5 lg:mt-[11rem] lg:ml-[7rem]
                 "
                 >
-                    <p className="text-lg lg:text-xl">
+                    <p className=" lg:text-xl">
                         Olá, eu sou
                     </p>
 
-                    <h1 className="text-3xl lg:text-5xl font-bold leading-tight">
+                    <h1 className="text-3xl lg:text-5xl font-bold leading-tight text-(--color-text)">
                         Itamar Henriques,
                     </h1>
 
-                    <h2 className="text-3xl lg:text-4xl font-semibold leading-tight">
+                    <h2 className="text-3xl lg:text-4xl font-semibold leading-tight text-(--color-text)">
                         Um <em>{textoAtual}</em>
-                        <span className="animate-pulse text-[#4A90D9]">|</span>
+                        <span className="animate-pulse text-(--color-cursor)">|</span>
                     </h2>
 
-                    <p className="mt-4 text-gray-600 leading-relaxed max-w-[500px]">
+                    <p className="mt-4 max-w-[500px]">
                         Estudante de Análise e Desenvolvimento de Sistemas na PUC Minas, construindo projetos e desenvolvendo minhas habilidades.
                     </p>
 
                     <div className="flex gap-4 mt-6">
                         <a
                             href="#projects"
-                            className="px-6 py-2 bg-[#343434] text-white text-sm font-medium rounded hover:bg-[#4f4f4f] transition-colors duration-300"
+                            className="px-6 py-2 bg-(--color-btn) text-white text-sm font-medium rounded hover:bg-(--color-btn-hover) transition-colors duration-300"
                         >
                             Ver Projetos
                         </a>
                         <a
                             href="#contact"
-                            className="px-6 py-2 border border-gray-900 text-gray-900 text-sm font-medium rounded hover:bg-[#343434] hover:text-white transition-colors duration-300"
+                            className="px-6 py-2 border border-(--color-border) text-sm font-medium rounded hover:bg-(--color-btn) hover:text-white transition-colors duration-300"
                         >
                             Contato
                         </a>

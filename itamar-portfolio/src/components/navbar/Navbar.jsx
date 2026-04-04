@@ -16,7 +16,7 @@ export default function Navbar() {
 
     return (
         <React.StrictMode>
-            <nav className="fixed w-full flex justify-between items-center bg-[var(--color-bg-navbar)] shadow-[0px_3px_10px_#464646] top-0 left-0 z-50 pr-5">
+            <nav className="fixed w-full flex justify-between items-center bg-(--color-bg-navbar) shadow-[0px_3px_10px_#464646] top-0 left-0 z-50 pr-5">
 
                 <a href="#">
                     <img src={LogoPortifolio} alt="Logo do portifólio" className="w-[50px] h-[50px] m-[10px] ml-[15px]" />
@@ -29,18 +29,18 @@ export default function Navbar() {
                     max-[950px]:flex-col max-[950px]:items-center max-[950px]:justify-around
                     max-[950px]:w-[250px] max-[950px]:h-auto
                     max-[950px]:fixed max-[950px]:top-[85px] max-[950px]:right-[5px]
-                    max-[950px]:bg-[#3f4042] max-[950px]:rounded-b-[15px]
+                    max-[950px]:bg-(--color-bg-navbar) max-[950px]:rounded-b-[15px]
                     max-[950px]:shadow-[10px_10px_15px_#464646] max-[950px]:p-[25px]
                     ${!menuVisible ? 'max-[950px]:hidden' : ''}
                 `}>
                     {navLinks.map(({ href, label }) => (
-                        <li key={href} className="flex items-center transition-colors duration-300 hover:text-[#497EBC]">
+                        <li key={href} className="flex items-center transition-colors duration-300 hover:text-(--color-text-navbar-hover)">
                             <a
                                 href={href}
                                 className="
                                     relative text-[1.30rem] font-normal no-underline
                                     before:content-[''] before:absolute before:bottom-[-20px] before:left-0
-                                    before:w-full before:h-[5px] before:bg-[#497EBC]
+                                    before:w-full before:h-[5px] before:bg-(--color-bg-before)
                                     before:opacity-0 before:rounded-t-[8px]
                                     before:transition-all before:duration-300
                                     hover:before:opacity-100 hover:before:bottom-[-3px]
