@@ -3,10 +3,12 @@
 Este é o meu portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e experiências como desenvolvedor.
 
 ---
+## ⚠️ Disponível apenas para desktop (responsividade em desenvolvimento)
+---
 
 ## 🚀 Acesse o projeto
 
-🔗 https://.com
+🔗 [https://portfolio-itamar-henriques.com](https://itamar-neto.github.io/itamar-dev-portfolio/)
 
 ---
 
