@@ -3,7 +3,7 @@ import ScrollToTop from "../components/ScrollToTop.jsx";
 const socialLinks = [
     {
         href: "https://www.linkedin.com/in/itamar-henriques/",
-        src: "../../src/assets/Imagens/Linkedin.svg",
+        src: "https://github.com/Itamar-Neto/itamar-dev-portfolio/blob/main/itamar-portfolio/src/pages/Contact.jsx",
         alt: "Logo Linkedin",
     },
     {
