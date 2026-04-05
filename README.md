@@ -12,7 +12,7 @@ Este é o meu portfólio pessoal desenvolvido para apresentar meus projetos, hab
 
 ## 🖥️ Preview
 
-![Preview do Portfólio]()
+https://github.com/user-attachments/assets/2ea7592c-806a-4ca9-8b0c-96490b85315f
 
 ---
 
