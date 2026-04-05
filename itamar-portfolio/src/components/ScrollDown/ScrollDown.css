@@ -6,7 +6,7 @@
     position: relative;
     width: var(--sizeX);
     height: var(--sizeY);
-    margin-left: var(sizeX / 2);
+    margin-left: calc(var(--sizeX) / 2);
     border: calc(var(--sizeX) / 10) solid var(--color);
     border-radius: 50px;
     box-sizing: border-box;
