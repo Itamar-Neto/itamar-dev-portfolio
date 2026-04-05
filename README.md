@@ -8,7 +8,9 @@ Este é o meu portfólio pessoal desenvolvido para apresentar meus projetos, hab
 
 ## 🚀 Acesse o projeto
 
-🔗 [https://portfolio-itamar-henriques.com](https://itamar-neto.github.io/itamar-dev-portfolio/)
+🔗 <a href="https://itamar-neto.github.io/itamar-dev-portfolio/"
+  target="_blank"
+  rel="noopener noreferrer"> https://portfolio-itamar-henriques.com </a>
 
 ---
 
