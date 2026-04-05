@@ -1,24 +1,28 @@
 import ScrollToTop from "../components/ScrollToTop.jsx";
+import LogoLinkedin from "../assets/Imagens/Linkedin.svg";
+import LogoGithub from "../assets/Imagens/Github.svg";
+import LogoWhatsapp from "../assets/Imagens/Whatsapp.svg";
+import LogoInstagram from "../assets/Imagens/Instagram.svg";
 
 const socialLinks = [
     {
         href: "https://www.linkedin.com/in/itamar-henriques/",
-        src: "https://github.com/Itamar-Neto/itamar-dev-portfolio/blob/main/itamar-portfolio/src/pages/Contact.jsx",
+        src: LogoLinkedin,
         alt: "Logo Linkedin",
     },
     {
         href: "https://github.com/Itamar-Neto",
-        src: "../../src/assets/Imagens/GitHub.svg",
+        src: LogoGithub,
         alt: "Logo GitHub",
     },
     {
         href: "https://w.app/contatoitamarhenriques",
-        src: "../../src/assets/Imagens/Whatsapp.svg",
+        src: LogoWhatsapp,
         alt: "Logo Whatsapp",
     },
     {
         href: "https://www.instagram.com/itamar._.henriques/",
-        src: "../../src/assets/Imagens/Instagram.svg",
+        src: LogoInstagram,
         alt: "Logo Instagram",
     },
 ];
