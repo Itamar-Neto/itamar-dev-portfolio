@@ -37,7 +37,13 @@ Error generating stack: `+e.message+`
   }
 `,C=`rounded-[300px] bg-[#333333] [background-size:20px_20px] [background-image:radial-gradient(#242424_5px,transparent_0.5px)] relative [animation-iteration-count:infinite]`;function te(){return(0,b.jsxs)(b.Fragment,{children:[(0,b.jsx)(`style`,{children:S}),(0,b.jsxs)(`div`,{className:`h-full w-1/2 flex flex-col justify-center items-center relative -top-32 -right-52 gap-[30px] -rotate-[40deg] max-[950px]:hidden`,children:[(0,b.jsx)(`span`,{className:`${C} h-12 w-[50rem] [animation-name:Form1] [animation-duration:6.3s]`}),(0,b.jsx)(`span`,{className:`${C} h-12 w-[50rem] [animation-name:Form2] [animation-duration:5s]`}),(0,b.jsx)(`span`,{className:`${C} h-80 w-[50rem] [animation-name:Form3] [animation-duration:6.1s]`})]})]})}function ne(){return(0,b.jsx)(b.Fragment,{children:(0,b.jsx)(`div`,{id:`ScrollDown`,style:{"--color":`#333333`},children:(0,b.jsxs)(`span`,{id:`Chevrons`,children:[(0,b.jsx)(`span`,{className:`ChevronDown`}),(0,b.jsx)(`span`,{className:`ChevronDown`})]})})})}var re=[`Desenvolvedor em Formação`];function w(){let[e,t]=(0,_.useState)(``),[n,r]=(0,_.useState)(0),[i,a]=(0,_.useState)(!0);return(0,_.useEffect)(()=>{let o=re[n],s;return s=i?e.length<o.length?setTimeout(()=>{t(o.slice(0,e.length+1))},80):setTimeout(()=>a(!1),1500):e.length>0?setTimeout(()=>{t(e.slice(0,-1))},40):setTimeout(()=>{r(e=>(e+1)%re.length),a(!0)},0),()=>clearTimeout(s)},[e,i,n]),(0,b.jsxs)(b.Fragment,{children:[(0,b.jsxs)(`section`,{id:`home`,className:` flex justify-center items-center mt-[0rem] mb-5\r
                 h-auto w-full overflow-hidden py-[2rem] pb-[5rem] pt-[4rem]\r
+                /* Responsividade */\r
+                /* Mibile xs: 480px | sm: 640px */\r
+\r
+                /* Tablets md: 768px | lg: 1024px */\r
                 lg:flex-row lg:flex-nowrap lg:justify-between lg:pt-[5px] lg:pb-[6.25rem]\r
+\r
+                /* Desktops xl: 1280px | 2xl: 1536px | 3xl: 1920px */\r
             `,children:[(0,b.jsxs)(`div`,{className:`\r
                     flex flex-col text-left mt-[24px] pt-[2rem]\r
                     lg:text-left lg:h-[18.75rem] lg:w-4/5 lg:mt-[11rem] lg:ml-[7rem]\r
@@ -140,12 +146,19 @@ Error generating stack: `+e.message+`
 `;function oe(){return(0,b.jsxs)(b.Fragment,{children:[(0,b.jsx)(`style`,{children:ae}),(0,b.jsxs)(`div`,{id:`FormImage`,className:`relative flex justify-center items-center h-72 w-72 mt-[45px] -rotate-40`,children:[(0,b.jsx)(`div`,{id:`ImageContainer`,className:`rounded-full h-72 w-72 flex justify-center items-center z-1`,children:(0,b.jsx)(`img`,{src:ie,alt:`Foto do Itamar com efeito preto e branco`,id:`ImageItamar`,className:`h-64 w-64 rounded-full grayscale rotate-40`})}),(0,b.jsx)(`div`,{id:`Circle1`,className:`rounded-full h-[55px] w-[55px]`}),(0,b.jsx)(`div`,{id:`Circle2`,className:`h-[55px] w-[75px] rounded-[100px]`}),(0,b.jsx)(`div`,{id:`B1`,className:`h-[58px] w-[250px] top-0 right-[-50px]`,style:{borderRadius:`200px 100px 100px 0`}}),(0,b.jsx)(`div`,{id:`B2`,className:`h-[25px] w-[450px] rounded-[100px]`}),(0,b.jsx)(`div`,{id:`B3`,className:`h-[20px] w-[100px] rounded-[100px]`}),(0,b.jsx)(`div`,{id:`B4`,className:`h-[25px] w-[450px] rounded-[100px]`}),(0,b.jsx)(`div`,{id:`B5`,className:`h-[58px] w-[250px] bottom-0 left-[-50px]`,style:{borderRadius:`100px 0px 200px 100px`}}),(0,b.jsx)(`div`,{id:`B6`,className:`h-[35px] w-[100px] rounded-[100px]`})]})]})}function se(){return(0,b.jsxs)(`section`,{id:`about`,className:`\r
                 flex flex-row flex-nowrap justify-around items-center\r
                 w-full gap-[10px] px-[100px] py-[105px] mb-15\r
-                // Estilos para telas menores que 1220px\r
-                max-[1220px]:px-[40px] max-[1220px]:gap-[10px] max-[1220px]:flex-col max-[1220px]:align-items-center max-[1220px]:pt-[70px] max-[1220px]:text-center\r
-                // Estilos para telas menores que 950px\r
-                max-[950px]:flex-col max-[950px]:text-center max-[950px]:pt-[100px] max-[950px]:gap-[40px]\r
-                // Estilos para telas menores que 670px\r
+\r
+                /* Responsividade */\r
+\r
+                /* Mibile xs: 480px | sm: 640px */\r
                 max-[670px]:justify-center max-[670px]:items-center max-[670px]:px-[80px]\r
+\r
+                /* Tablets md: 768px | lg: 1024px */\r
+                max-[950px]:flex-col max-[950px]:text-center max-[950px]:pt-[100px] max-[950px]:gap-[40px]\r
+                \r
+                /* Desktops xl: 1280px | 2xl: 1536px | 3xl: 1920px */\r
+                max-[1220px]:px-[40px] max-[1220px]:gap-[10px] max-[1220px]:flex-col max-[1220px]:align-items-center max-[1220px]:pt-[70px] max-[1220px]:text-center\r
+                \r
+                \r
             `,children:[(0,b.jsx)(oe,{}),(0,b.jsxs)(`div`,{className:`flex flex-col`,children:[(0,b.jsxs)(`div`,{className:`flex flex-col w-[640px] my-[25px] lg:w-[500px] md:w-[80vw] md:mx-[10px] sm:w-[80vw] pt-[15px]`,children:[(0,b.jsx)(`h2`,{className:`text-4xl font-semi mb-4`,children:`Sobre mim`}),(0,b.jsx)(`p`,{className:`text-left`,children:`A paixão por tecnologia sempre me acompanhou, e a arte foi o que me ensinou a dar vida a ideias. Acredito que criar sistemas é uma forma de arte — cada projeto é uma tela em branco onde a imaginação se materializa em soluções reais e funcionais.`}),(0,b.jsx)(`p`,{className:`text-left mt-4`,children:`É a partir dessa fusão entre lógica e criatividade que transformo necessidades e sonhos em produtos concretos. É a partir dessa fusão entre lógica e criatividade que transformo necessidades e sonhos em produtos concretos. Como estudante autodidata e aluno de Análise e Desenvolvimento de Sistemas na PUC Minas, dedico meu tempo para aprofundar meus estudos, construir projetos e evoluir constantemente como desenvolvedor.`})]}),(0,b.jsxs)(`div`,{className:`flex flex-col mt-5 md:items-center md:justify-center`,children:[(0,b.jsx)(`h3`,{className:`text-3xl font-semi mb-3`,children:`Currículo`}),(0,b.jsx)(`a`,{href:` https://drive.google.com/file/d/1ZkarUxHcYToY0tdMCQxtoH1vthMuqbIw/preview`,target:`_blank`,rel:`noopener noreferrer`,className:`\r
                         flex items-center justify-center gap-2\r
                         w-40% px-6 h-[52px]\r
