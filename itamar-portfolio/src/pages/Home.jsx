@@ -43,7 +43,13 @@ export default function Home() {
                 id="home"
                 className=" flex justify-center items-center mt-[0rem] mb-5
                 h-auto w-full overflow-hidden py-[2rem] pb-[5rem] pt-[4rem]
+                /* Responsividade */
+                /* Mibile xs: 480px | sm: 640px */
+
+                /* Tablets md: 768px | lg: 1024px */
                 lg:flex-row lg:flex-nowrap lg:justify-between lg:pt-[5px] lg:pb-[6.25rem]
+
+                /* Desktops xl: 1280px | 2xl: 1536px | 3xl: 1920px */
             "
             >
                 <div
