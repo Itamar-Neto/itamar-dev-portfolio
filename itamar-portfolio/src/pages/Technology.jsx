@@ -16,8 +16,11 @@ export default function Technology() {
                 <BallonText text="C#" />
                 <BallonText text="Git" />
                 <BallonText text="GitHub" />
+                <BallonText text="Scrum" />
+                <BallonText text="Kanban" />
                 <BallonText text="VS Code" />
                 <BallonText text="Figma" />
+                <BallonText text="Trello" />
                 <BallonText text="Lucidchart" />
                 <BallonText text="Illustrator" />
                 <BallonText text="Photoshop" />
