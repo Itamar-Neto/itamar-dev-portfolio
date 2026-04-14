@@ -11,12 +11,7 @@
     border-radius: 50px;
     box-sizing: border-box;
     margin-bottom: 16px;
-    cursor: pointer;
     rotate: 180deg;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-
 }
 
 #ScrollDown::before {
