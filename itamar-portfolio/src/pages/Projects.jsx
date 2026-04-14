@@ -13,8 +13,8 @@ import { useState } from "react";
 
 // Importação das imagens para o projeto "Portfólio"
 import SliderLogo from "../assets/ProjectsImage/PortifolioItamar/LogoSlide.png";
-import SliderPc from "../assets/ProjectsImage/PortifolioItamar/PcPortifolio.png";
-import SliderPhone from "../assets/ProjectsImage/PortifolioItamar/SmarphonePortifolio.png";
+import SliderPc from "../assets/ProjectsImage/PortifolioItamar/notebookPortifolioItamar.png";
+/*import SliderPhone from "../assets/ProjectsImage/PortifolioItamar/SmarphonePortifolio.png";*/
 
 const PROJECTS = [
     {
@@ -35,10 +35,10 @@ const PROJECTS = [
                 src: SliderPc,
                 alt: "Imagem com o fundo azul e um Mac com a foto do site na tela",
             },
-            {
-                src: SliderPhone,
+            /*{
+                src: SliderPhone
                 alt: "Imagem com o fundo azul e Smartphone com a foto do site na tela",
-            },
+            },*/
         ],
         techs: [
             "JavaScript",
