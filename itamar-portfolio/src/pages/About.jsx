@@ -4,23 +4,15 @@ export default function About() {
     return (
         <section
             id="about"
+            /* Responsividade: Mibile xs: 480px | sm: 640px ||| Tablets md: 768px | lg: 1024px ||| Desktops xl: 1280px | 2xl: 1536px | 3xl: 1920px */
             className="
                 flex flex-row flex-nowrap justify-around items-center
                 w-full gap-[10px] px-[100px] py-[105px] mb-15
-
-                /* Responsividade */
-
-                /* Mibile xs: 480px | sm: 640px */
                 max-[670px]:justify-center max-[670px]:items-center max-[670px]:px-[80px]
-
-                /* Tablets md: 768px | lg: 1024px */
+                
                 max-[950px]:flex-col max-[950px]:text-center max-[950px]:pt-[100px] max-[950px]:gap-[40px]
-                
-                /* Desktops xl: 1280px | 2xl: 1536px | 3xl: 1920px */
-                max-[1220px]:px-[40px] max-[1220px]:gap-[10px] max-[1220px]:flex-col max-[1220px]:align-items-center max-[1220px]:pt-[70px] max-[1220px]:text-center
-                
-                
-            "
+
+                max-[1220px]:px-[40px] max-[1220px]:gap-[10px] max-[1220px]:flex-col max-[1220px]:align-items-center max-[1220px]:pt-[70px] max-[1220px]:text-center"
         >
             <FormImage />
 
