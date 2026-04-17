@@ -41,10 +41,9 @@ export default function Home() {
         <>
             <section
                 id="home"
-                /* Responsividade: Mibile xs: 480px | sm: 640px ||| Tablets md: 768px | lg: 1024px ||| Desktops xl: 1280px | 2xl: 1536px | 3xl: 1920px */
+                /* Responsividade: Mobile xs: 480px | sm: 640px ||| Tablets md: 768px | lg: 1024px ||| Desktops xl: 1280px | 2xl: 1536px | 3xl: 1920px */
                 className="
-                flex justify-center items-center mt-[0rem] mb-5
-                h-auto w-full overflow-hidden py-[2rem] pb-[5rem] pt-[4rem]
+                flex justify-center items-center overflow-hidden h-auto w-full mt-[0rem] mb-5 py-[2rem] pb-[5rem] pt-[4rem]
 
                 lg:flex-row lg:flex-nowrap lg:justify-between lg:pt-[5px] lg:pb-[6.25rem]"
             >
@@ -59,11 +58,14 @@ export default function Home() {
                         Olá, eu sou
                     </p>
 
-                    <h1 className="text-3xl lg:text-5xl font-bold leading-tight text-(--color-text)">
+                    <h1 className="text-3xl font-bold leading-tight text-(--color-text) 
+                    
+                    lg:text-5xl">
                         Itamar Henriques,
                     </h1>
 
-                    <h2 className="text-3xl lg:text-4xl font-semibold leading-tight text-(--color-text)">
+                    <h2 className="text-3xl font-semibold leading-tight text-(--color-text)
+                    lg:text-4xl">
                         Um <em>{textoAtual}</em>
                         <span className="animate-pulse text-(--color-cursor)">|</span>
                     </h2>

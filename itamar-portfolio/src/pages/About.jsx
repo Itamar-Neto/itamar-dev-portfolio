@@ -4,7 +4,7 @@ export default function About() {
     return (
         <section
             id="about"
-            /* Responsividade: Mibile xs: 480px | sm: 640px ||| Tablets md: 768px | lg: 1024px ||| Desktops xl: 1280px | 2xl: 1536px | 3xl: 1920px */
+            /* Responsividade: Mobile xs: 480px | sm: 640px ||| Tablets md: 768px | lg: 1024px ||| Desktops xl: 1280px | 2xl: 1536px | 3xl: 1920px */
             className="
                 flex flex-row flex-nowrap justify-around items-center
                 w-full gap-[10px] px-[100px] py-[105px] mb-15

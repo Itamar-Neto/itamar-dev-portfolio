@@ -5,8 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {
-      screens: {
+    screens: {
         'xs':  '480px', 
         'sm':  '640px',
         'md':  '768px',
@@ -15,6 +14,7 @@ export default {
         '2xl': '1536px',
         '3xl': '1920px',
       },
+    extend: {
       fontFamily: {
         sans: ['Oak Sans', 'sans-serif'],
       },
