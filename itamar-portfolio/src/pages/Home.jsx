@@ -41,7 +41,6 @@ export default function Home() {
         <>
             <section
                 id="home"
-                /* Responsividade: Mobile xs: 480px | sm: 640px ||| Tablets md: 768px | lg: 1024px ||| Desktops xl: 1280px | 2xl: 1536px | 3xl: 1920px */
                 className="
                 flex justify-center items-center overflow-hidden h-auto w-full mt-[0rem] mb-5 py-[2rem] pb-[5rem] pt-[4rem]
 
